@@ -1,0 +1,36 @@
+.box {
+	height: 30vh;
+	display: flex;
+	justify-self: center;
+	align-items: center;
+}
+
+.image {
+	display: block;
+	width: 100%;
+}
+
+.usersContainer {
+	padding: 20px 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+@media (max-width: 1200px) {
+	.usersContainer {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 800px) {
+	.usersContainer {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 600px) {
+	.usersContainer {
+		grid-template-columns: 1fr;
+	}
+}

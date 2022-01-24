@@ -1,0 +1,11 @@
+.showNew {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.card {
+	width: 300px;
+}
